@@ -24,7 +24,7 @@ namespace TwcMapster.DTOs
             // Here we split the price into two properties for the model behind the DTO
             SetCustomMappings()
                 .Map(dest => dest.Price,
-                     src => Convert.ToInt32(src.Price.Split(' ', StringSplitOptions.None)[0]))
+                     src => Convert.ToDouble(src.Price.Split(' ', StringSplitOptions.None)[0]))
                 .Map(dest => dest.Currency,
                      src => src.Price.Split(' ', StringSplitOptions.None)[1]);
 
