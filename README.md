@@ -28,9 +28,9 @@ public class UserDto : BaseDto<UserDto, User>
 
 	public override void AddCustomMappings()
     	{
-        SetCustomMappingsReverse()
-            .Map(dest => dest.FullName, src => $"{src.FirstName} {src.LastName}")
-            .Map(dest => dest.Email, src => src.Email);
+	        SetCustomMappingsReverse()
+	            .Map(dest => dest.FullName, src => $"{src.FirstName} {src.LastName}")
+	            .Map(dest => dest.Email, src => src.Email);
     	}
 }
 ```
