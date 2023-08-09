@@ -1,4 +1,4 @@
-# .NET 7 Mapster Demo Web API
+# .NET 7 Web API Mapster Demo
 TwcMapster is a demonstration of how easily you can implement Mapster in your .NET 7 Web API project.
 
 ## Getting Started
