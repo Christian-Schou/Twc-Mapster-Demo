@@ -21,66 +21,6 @@ namespace TwcMapster.Models
         public int CategoryId { get; set; }
         public Category Category { get; set; }
 
-        public Book()
-        {
-        }
-
-        // Constructor for the book
-        public Book(string title, string author, int releaseYear, string publisher, double price, int categoryId)
-        {
-            Title = title;
-            Author = author;
-            ReleaseYear = releaseYear;
-            Publisher = publisher;
-            Price = price;
-        }
-
-        // Accessor methods for the book
-        public string GetTitle()
-        {
-            return Title;
-        }
-
-        public string GetAuthor()
-        {
-            return Author;
-        }
-        public int GetReleaseYear()
-        {
-            return ReleaseYear;
-        }
-        public string GetPublisher()
-        {
-            return Publisher;
-        }
-        public double GetCost()
-        {
-            return Price;
-        }
-
-        // Mutator methods for the book
-        public void SetTitle(string title)
-        {
-            Title = title;
-        }
-
-        public void SetAuthor(string author)
-        {
-            Author = author;
-        }
-        public void SetReleaseYear(int releaseYear)
-        {
-            ReleaseYear = releaseYear;
-        }
-        public void SetPublisher(string publisher)
-        {
-            Publisher = publisher;
-        }
-        public void SetPrice(double price)
-        {
-            Price = price;
-        }
-
         // Method to print the book details
         public override string ToString()
         {
