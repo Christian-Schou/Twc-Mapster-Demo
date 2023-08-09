@@ -1,6 +1,5 @@
 ﻿using Mapster;
 using System.Reflection;
-using TwcMapster.DTOs;
 
 namespace TwcMapster.Configurations
 {

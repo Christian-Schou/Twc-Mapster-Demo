@@ -13,6 +13,7 @@ builder.Services.AddSwaggerGen();
 // Database Registration
 builder.Services.AddDbContext<AppDbContext>(options =>
 {
+    // Using the default connectionstring form appsettings
     options.UseSqlServer(builder.Configuration.GetConnectionString("Default"));
 });
 

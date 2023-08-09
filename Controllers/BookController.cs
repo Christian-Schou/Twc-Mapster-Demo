@@ -5,6 +5,9 @@ using TwcMapster.Data;
 
 namespace TwcMapster.Controllers
 {
+    /// <summary>
+    /// Books Controller
+    /// </summary>
     [ApiController]
     [Route("api/[controller]")]
     public class BookController : ControllerBase
