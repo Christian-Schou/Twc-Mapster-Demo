@@ -34,7 +34,7 @@ namespace TwcMapster.DTOs
                 .Map(dest => dest.Author, src => src.Author)
                 .Map(dest => dest.ReleaseYear, src => src.ReleaseYear)
                 .Map(dest => dest.Publisher, src => src.Publisher)
-                .Map(dest => dest.Price, src => $"{src.Price} USD")
+                .Map(dest => dest.Price, src => $"{src.Price} {src.Currency}")
                 .Map(dest => dest.CategoryName, src => src.Category.Name);
         }
     }
