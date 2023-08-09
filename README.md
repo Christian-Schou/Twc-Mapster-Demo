@@ -18,6 +18,7 @@ Update-Database
 
 ## Usage of BaseDto
 The BaseDto class is a base class for all DTOs. It contains methods to map between the DTOs and models. Here is an example of how to use it:
+
 ```C#
 public class UserDto : BaseDto<UserDto, User>
 {
@@ -41,4 +42,4 @@ public class UserDto : BaseDto<UserDto, User>
 * Microsoft SQL Server
 
 ## License
-This project is Licensed under the GPU 3.0 License - see the [LICENSE.md](LICENSE.md) file for details.
+This project is Licensed under the GPU 3.0 License - see the [LICENSE.txt](LICENSE.txt) file for details.
