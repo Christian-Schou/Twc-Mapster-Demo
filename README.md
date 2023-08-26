@@ -1,6 +1,8 @@
 # .NET 7 Web API Mapster Demo
 TwcMapster is a demonstration of how easily you can implement Mapster in your .NET 7 Web API project.
 
+You can read the full in-depth tutorial for this repository on my blog at this link: [How to use Mapster with .NET 7](https://blog.christian-schou.dk/how-to-use-mapster-with-net-7/).
+
 ## Getting Started
 1. Clone the repository.
 2. Open the solution in Visual Studio 2019+.
